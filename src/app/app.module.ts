@@ -6,6 +6,7 @@ import { BagPage } from '../pages/bag/bag';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import {ModalContentPage} from '../pages/modal/modal-content';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +18,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BagPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    ModalContentPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -29,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BagPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    ModalContentPage
   ],
   providers: [
     StatusBar,
